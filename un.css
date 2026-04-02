@@ -1,0 +1,206 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background-image:url("fondo.jpg");
+background-attachment:fixed;
+background-size:cover;
+text-align:center;
+}
+
+/* BANNER */
+
+.banner{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0, 0, 0, 0.4);
+color:white;
+padding:15px;
+z-index:1000;
+border-radius: 30px;
+}
+
+.banner__overlay{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* botones */
+.boton/*boton del baner*/{ 
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.boton:hover {
+    background-color:rgba(103, 65, 18, 0.8);
+}
+/* HERO */
+
+.hero{
+margin-top:120px;
+padding:40px;
+}
+
+.imagen-cafe{
+transform: scale(1.05);
+width:350px;
+height:350px;
+border-radius: 25%;
+object-fit: cover;
+box-shadow:0 5px 10px black;
+padding: 2px;
+}
+
+.bienvenida{
+margin-top:20px;
+font-size:18px;
+color:white;
+text-shadow:1px 1px 5px black;
+}
+
+.bienvenida span{
+font-size:22px;
+color:burlywood;
+}
+
+
+/* PRODUCTOS */
+
+#productos h2{
+display: inline-block;
+padding: 10px 20px;
+border-radius: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+margin-bottom: 30px;
+}
+
+.tarjetas{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+width:200px;
+border-radius:15px;
+box-shadow:0 5px 10px rgba(0,0,0,0.7);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+/* POSTRES */
+
+.seccion-postres {
+text-align: center;
+padding: 40px;
+}
+.titulo-postres {
+ display: inline-block;
+padding: 10px 20px;
+border-radius: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+margin-bottom: 30px;
+}
+.galeria-postres {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}  
+
+.galeria-postres figure {
+    text-align: center;
+}
+
+.galeria-postres img {
+width: 350px;
+height: 350px;
+object-fit: cover;
+ border-radius: 50px;
+transition: transform 0.3s ease;
+}
+
+.galeria-postres {
+transform: scale(1.05);
+border-radius: 40%;
+}
+
+.lista-postres {
+padding: 10px;
+margin: 30px auto 0;
+background-color: rgba(212, 177, 120, 0.8);
+border-radius: 20px;
+width: 300px;
+}
+
+.lista-postres li {
+margin: 8px 0;
+font-size: 18px;
+}
+/* CONTACTO */
+
+.contacto{
+background:burlywood;
+padding:40px;
+margin:40px;
+border-radius:20px;
+}
+
+
+/* RECETAS */
+
+.receta{
+margin-top:120px;
+padding:40px;
+background:white;
+margin:120px auto;
+max-width:700px;
+border-radius:20px;
+}
+
+.imagen-receta{
+width: 800px;
+margin-top:15px;
+border-radius:15px;
+}
+
+
+/* FOOTER */
+
+footer{
+background:black;
+color:white;
+padding:20px;
+margin-top:40px;
+}
+
+/* PROMOCIONES */
+.promociones{
+color: beige;
+background-image:url("vista-superior-cafe-espacio-copiar.png");
+background-color: rgba(162, 111, 49, 0.8);
+background-size: cover;
+padding:20px;
+margin: 30px auto 0;
+border-radius:20px;
+width: 800px;
+}
